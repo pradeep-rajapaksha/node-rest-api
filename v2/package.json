@@ -1,0 +1,22 @@
+{
+  "name": "node-rest-api-test",
+  "version": "1.2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "pradeep.rajapaksha@intrepidtraqvel.com",
+  "license": "ISC",
+  "keywords": [],
+  "description": "test project of making rest api with nodejs",
+  "repository": "localhost:3000",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
